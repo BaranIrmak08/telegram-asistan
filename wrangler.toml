@@ -1,0 +1,11 @@
+name = "telegram-asistan"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# Workers AI (ücretsiz kota / free tier). Kodda env.AI olarak kullanılır.
+[ai]
+binding = "AI"
+
+# Her gün UTC 06:00 = Türkiye 09:00: abonelikleri işler / processes subscriptions daily.
+[triggers]
+crons = ["0 6 * * *"]

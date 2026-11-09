@@ -1,0 +1,12 @@
+{
+  "name": "telegram-asistan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Telegram -> Notion personal finance & notes assistant on Cloudflare Workers (free tier)",
+  "scripts": {
+    "test": "node tests/test.mjs worker.js",
+    "deploy": "npx wrangler deploy"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+# Gizli değerler asla GitHub'a gitmez / Secrets never go to GitHub
+.dev.vars
+.env
+*.secret
+
+# Kişisel yedekler / Personal backups
+yedek/
+
+node_modules/
+.wrangler/

@@ -1,0 +1,8 @@
+# BotFather'ın verdiği token / Token from BotFather (looks like 123456789:AAH...)
+TELEGRAM_TOKEN=
+
+# Uydurduğun uzun rastgele metin, yalnızca harf, rakam, _ ve - / Long random text you make up: letters, digits, _ and - only
+WEBHOOK_SECRET=
+
+# Notion integration secret'ı / Notion integration secret (starts with ntn_)
+NOTION_TOKEN=
